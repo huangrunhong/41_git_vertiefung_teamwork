@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>git_vertiefung-Team_Work</title>
+    <style>
+      li {
+        margin: 5px 0;
+      }
+      li span {
+        font-weight: bold;
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heute lernen wir Git und Github etwas besser kennen</h1>
+    <h2>Was fur Schritte kennen wir bereits?</h2>
+    <ol>
+      <li><span>git init</span> ===>erstellt ein lokales git repo</li>
+      <li>
+        Wie bereiten wir Dateien vor?
+        <ul>
+          <li>
+            <span> git add .</span> ===>bereitet alle Dateien Anderungen fur die
+            Staging Area vor
+          </li>
+          <li>
+            <span> git add "Datei.name"</span> ===>bereitet eine einzelne
+            Datei/Anderung fur die Staging Area vor
+          </li>
+        </ul>
+      </li>
+      <li>
+        <span
+          >git commit -m "message oder hier bitte etwas anssagekraftiges"</span
+        >
+        ===>speichert die staging area im lokalen git repo und erstellt einen
+        sogenannten "snapshot"
+      </li>
+      <li>
+        <span>git remote add origin "git@github.com:LinkZumGitHubRepo"</span>
+        ===> erstellen eine Verbindung zwischen dem lokalen git repo auf github
+      </li>
+      <li>
+        <span>git branch -M main</span> ==> erstellt uns einen main branch auf
+        dem wir dann arbeiten
+      </li>
+      <li>
+        <span>git push -u origin main</span> ==> ladt lokales repo in das remote
+        repo hoch, in den main branch
+      </li>
+    </ol>
+
+    <h2>
+      !!!Schritte 4 bis 6 bekommt ihr von GitHub nach erstellen eines
+      Repositories!!!
+    </h2>
+    <h3>Was ist ein Branch ?</h3>
+    <p>
+      Ein Branch ist ein seperates Arbeitsverzeichnis in unserem Respository, es
+      konnen mehrere branches in einem Repo existieren und unabhangig
+      voneinander bearbeitet werden.
+    </p>
+    <h3>was ist eine Repository ?</h3>
+    <p>
+      Respository = Depot/Lager, hier werden alle von uns hinzugefugen Dateien
+      gespeichert, um sie spater gebundelt an einem Platz zu haben.
+    </p>
+    <h3>Was ist die Stage/Staging area ?</h3>
+    <p>
+      ist wie ein wartezimmer beim Arzt, hier werden die von uns geandert
+      Dateien vorbereitet um ins Repo zugelangen.
+    </p>
+    <h2>Weitere Git- Befehle :</h2>
+    <ul>
+      <li><span></span></li>
+    </ul>
+  </body>
+</html>
